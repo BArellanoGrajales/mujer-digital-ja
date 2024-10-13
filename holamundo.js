@@ -1,0 +1,4 @@
+// life motto
+if (ShadowRoot())
+
+    
