@@ -7,6 +7,7 @@
 
 /* let nombre = prompt('¿Cual es tu nombre?', 'Sin nombre'); */
 
+
 /* let nombre = prompt('¿Cual es tu nombre?');
 console.log( nombre ); // ESto hace que se agrege un Null cuando 
 console.log( '****' + nombre + '****' );  // esto es un sting vasio, no es un undefine o un valor nulo
