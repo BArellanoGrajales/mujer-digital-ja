@@ -1,4 +1,4 @@
-#apuntes Clase de udemy de Java Scrip
+#apuntes Clase de udemy de Java Scrip que es un lenjuage tipado.
 
 **Abrir en consola**
 cocnsole.log('hola Mundo');
@@ -106,3 +106,17 @@ console.log( '****' + nombre + '****' );
 
 _// esto es un sting vasio, no es un undefine o un valor nulo_
 _lo que hace esto es que si la persona no escribe nada al escribir en la consola el nombre de la variable  me aprecera astediscos +  lo que decida escribir_
+
+
+**Valor primitivo VS variable primitiva**
++ Valor primitivo: Es un dato simple, como un número (por ejemplo, 5), una letra (por ejemplo, "A"), o un valor de sí/no (como true o false). Es el dato puro.
+
+    Ejmeplos:
+                Números (como 5, 3.14)
+                Cadenas de texto ("Hola")
+                Booleanos (true o false)
+                Null,  (sin valor en absoluto declarado)
+                Undefined (en JavaScript)
+                Symbol (valor unico que no es igual a ningun otro valor)
+
++ Variable primitiva: Es el lugar (o contenedor) donde guardas ese dato. Por ejemplo, si tienes una caja con un número dentro, la caja es la variable, y el número dentro es el valor.
