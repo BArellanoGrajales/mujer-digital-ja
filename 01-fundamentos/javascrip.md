@@ -45,6 +45,11 @@ _ En la opción 1 Es poner antes de la variable las comillas sensillas_
 
 _En la opción 2 es poner las variables entre corchetes_
 
+**//para saber que tipo de dato apunta una variable se usa el typeof//
+console.log( typeof nombre );
+
+_en este caso nombre puede ser cualquier variable_
+
 **Agregar estilo a la consola de Java Scrip**
 console.log('%c Mis variables', 'color:blue; font-weight: bold');
 console.log( { a } );
@@ -120,3 +125,4 @@ _lo que hace esto es que si la persona no escribe nada al escribir en la consola
                 Symbol (valor unico que no es igual a ningun otro valor)
 
 + Variable primitiva: Es el lugar (o contenedor) donde guardas ese dato. Por ejemplo, si tienes una caja con un número dentro, la caja es la variable, y el número dentro es el valor.
+

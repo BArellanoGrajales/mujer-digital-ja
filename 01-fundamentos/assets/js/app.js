@@ -49,7 +49,7 @@
 
 console.log( miNuevoNombre + ' Grajales ' );
 
-alert('Hola desde app.js');
+/* alert('Hola desde app.js'); */
 
 /* console.log( console.log ('Hola mundo')); */
 
