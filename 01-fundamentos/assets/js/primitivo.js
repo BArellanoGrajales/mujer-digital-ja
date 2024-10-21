@@ -30,4 +30,11 @@ console.log( typeof edad );
 edad = 33.001;  // 3.00  es un numero flotante por que tiene decimales
 console.log( typeof edad );
 
+//camel case es una convención de escritura que se usa en JS
+//Comel case es que cada una de las palabras lo pongas en mayusculas
+// superPoder o tambien beatrizArellanoGrajales 
 
+let superPoder; // suepr poder es una variable que no tiene valor asignado, por lo tanto es NUlA
+console.log( typeof superPoder ); 
+
+//NOTA :  En JS todo son objetos menos los primitivos 

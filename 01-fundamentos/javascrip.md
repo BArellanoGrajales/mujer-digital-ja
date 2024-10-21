@@ -126,3 +126,20 @@ _lo que hace esto es que si la persona no escribe nada al escribir en la consola
 
 + Variable primitiva: Es el lugar (o contenedor) donde guardas ese dato. Por ejemplo, si tienes una caja con un número dentro, la caja es la variable, y el número dentro es el valor.
 
+**Tipos de datos en JS**
+
+ En JavaScript, los tipos de datos primitivos son aquellos que no son objetos y no tienen métodos. Los valores primitivos son inmutables, lo que significa que no se pueden cambiar directamente. Los principales tipos de datos primitivos en JavaScript son:
+
++ string: Representa una secuencia de caracteres. Ejemplo: "Hola", 'Mundo'.
+
++ number: Representa tanto números enteros como de punto flotante. Ejemplo: 42, 3.14.
+
++ boolean: Representa un valor lógico, es decir, true o false.
+
++ undefined: Representa una variable que ha sido declarada pero no tiene valor asignado.
+
++ null: Representa la ausencia intencional de un valor o un valor nulo.
+
++ symbol: Introducido en ECMAScript 6 (ES6), representa un valor único e inmutable. Se usa para crear identificadores únicos. Ejemplo: Symbol('id').
+
++ bigint: Introducido en ECMAScript 2020, representa números enteros grandes (más allá de lo que number puede manejar). Ejemplo: 123456789012345678901234567890n.+
