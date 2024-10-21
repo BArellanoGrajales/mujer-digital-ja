@@ -12,3 +12,4 @@ noombre='Tia May'; //Tia May es un string por que esta dentro de las comillas si
 //para saber que tipo de dato apunta una variable se usa el typeof
 console.log( typeof nombre ); // typeof es un operador interno que ya existe dentro de JS. y nombre es el nombre de la variable
 
+
