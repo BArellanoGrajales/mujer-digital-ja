@@ -145,6 +145,64 @@ _lo que hace esto es que si la persona no escribe nada al escribir en la consola
 + bigint: Introducido en ECMAScript 2020, representa números enteros grandes (más allá de lo que number puede manejar). Ejemplo: 123456789012345678901234567890n.+
 
 
+# Lower Camel Case (camelCase) vs Upper Camel Case (PascalCase)
+
+**Lower Camel Case** y **Upper Camel Case** son convenciones de nomenclatura comúnmente usadas en programación para nombres de variables, funciones, clases, y otros identificadores. A continuación te explico la diferencia entre ellas:
+
+## 1. Lower Camel Case (camelCase):
+En **lower camel case**, el primer carácter es minúsculo y cada palabra subsiguiente empieza con mayúscula. No se utilizan espacios ni guiones entre las palabras.
+
+- **Uso común**: Se usa típicamente para nombrar variables, funciones o métodos.
+  
+- **Ejemplos**:
+  - `myVariableName`
+  - `calculateTotalPrice`
+  - `isUserLoggedIn`
+  - `getUserDetails`
+
+- **Reglas**:
+  - La primera palabra empieza en minúscula.
+  - Cada palabra subsiguiente empieza con mayúscula.
+
+## 2. Upper Camel Case (PascalCase):
+En **upper camel case** (también conocido como **Pascal Case**), la primera letra de cada palabra, incluyendo la primera, es mayúscula.
+
+- **Uso común**: Se usa típicamente para nombrar clases, estructuras o constructores.
+  
+- **Ejemplos**:
+  - `MyClassName`
+  - `CalculateTotalPrice`
+  - `UserLoginManager`
+  - `Person`
+
+- **Reglas**:
+  - Cada palabra, incluida la primera, empieza con una letra mayúscula.
+
+## Diferencias principales:
+- **Lower Camel Case** comienza con minúscula y luego cada palabra nueva empieza con mayúscula.
+- **Upper Camel Case (Pascal Case)** comienza con mayúscula en la primera palabra y en todas las siguientes.
+
+## Cuándo usar cada uno:
+- **Lower Camel Case**: Generalmente utilizado para **nombres de variables, funciones y métodos**.
+- **Upper Camel Case**: Se utiliza para **nombres de clases, interfaces, y tipos**.
+
+## Ejemplos prácticos:
+```javascript
+// Lower Camel Case (usado para variables y funciones)
+let totalPrice = 0;
+function calculateTotalPrice() {
+    return totalPrice;
+}
+
+// Upper Camel Case (usado para clases)
+class ShoppingCart {
+    constructor() {
+        this.items = [];
+    }
+}
+
+
+
 **Palabras reservadas en JS**
 - Palabras reservadas (ES5 y anteriores):
 - break
