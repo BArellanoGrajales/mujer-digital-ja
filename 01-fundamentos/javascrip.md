@@ -201,6 +201,20 @@ class ShoppingCart {
     }
 }
 
+#Ejmeplo de arreglo heterogéneo
+let arregloCosas = [
+  true,                             // 1. Un valor booleano (true)
+  123,                              // 2. Un número entero (123)
+  'Fernando',                       // 3. Un string o cadena de texto ('Fernando')
+  1+2,                              // 4. Una expresión que se evalúa a un número (1+2, que da 3)
+  function(){},                     // 5. Una función anónima vacía
+  ()=>{},                           // 6. Una función de flecha vacía
+  { a: 1 },                         // 7. Un objeto con una propiedad 'a' cuyo valor es 1
+  ['x', 'Megaman', 'ZZero', 'Dr. Light', 'Dr. Willy']  // 8. Otro arreglo que contiene varios strings
+];
+
+**Imprimir especificamente un solo arreglo**
+_El código console.log(arregloCosas[3]); está imprimiendo el cuarto elemento del arreglo, que es el resultado de la expresión 1+2 (es decir, 3)_
 
 
 **Palabras reservadas en JS**
