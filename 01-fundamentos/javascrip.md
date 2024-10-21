@@ -1,4 +1,4 @@
-#apuntes Clase de udemy de Java Scrip que es un lenjuage tipado.
+# apuntes Clase de udemy de Java Scrip que es un lenjuage tipado.
 
 **Abrir en consola**
 cocnsole.log('hola Mundo');
@@ -143,3 +143,44 @@ _lo que hace esto es que si la persona no escribe nada al escribir en la consola
 + symbol: Introducido en ECMAScript 6 (ES6), representa un valor único e inmutable. Se usa para crear identificadores únicos. Ejemplo: Symbol('id').
 
 + bigint: Introducido en ECMAScript 2020, representa números enteros grandes (más allá de lo que number puede manejar). Ejemplo: 123456789012345678901234567890n.+
+
+
+**Palabras reservadas en JS**
+- Palabras reservadas (ES5 y anteriores):
+- break
+- ncase
+- catch
+- class (introducido en ES6)
+- const (introducido en ES6)
+- continue
+- debugger
+- default
+- delete
+- do
+- else
+- enum (introducido en ES6, pero no implementado en todos los navegadores)
+- export (introducido en ES6)
+- extends (introducido en ES6)
+- false
+- finally
+- for
+- function
+- if
+- import (introducido en ES6)
+- in
+- instanceof
+- new
+- null
+- return
+- super (introducido en ES6)
+- switch
+- this
+- throw
+- true
+- try
+- typeof
+- var
+- void
+- while
+- with
+- yield (introducido en ES6 para generadores)

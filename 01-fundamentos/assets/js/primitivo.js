@@ -38,3 +38,11 @@ let superPoder; // suepr poder es una variable que no tiene valor asignado, por 
 console.log( typeof superPoder ); 
 
 //NOTA :  En JS todo son objetos menos los primitivos 
+
+
+// Los simbolos ayudan a Js a crear identificadores unicos a JS
+let symbol1 = Symbol('a');
+let symbol2 = Symbol('a');
+
+console.log( typeof symbol1 );
+console.log
