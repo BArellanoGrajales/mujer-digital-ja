@@ -218,6 +218,17 @@ let arregloCosas = [
 _El código console.log(arregloCosas[3]); está imprimiendo el cuarto elemento del arreglo, que es el resultado de la expresión 1+2 (es decir, 3)_
 
 
+# conjunto de métodos permite manipular los elementos de un arreglo de manera flexible,
+**Este conjunto de métodos permite manipular los elementos de un arreglo de manera flexible, añadiendo, eliminando o buscando elementos según sea necesario.**
+
++ push() añade un elemento al final del arreglo.
++ unshift() añade un elemento al principio del arreglo.
++ pop() elimina el último elemento del arreglo.
++ splice() elimina elementos en una posición específica.
++ indexOf() busca un elemento en el arreglo y devuelve su índice.
+
+
+
 **Palabras reservadas en JS**
 - Palabras reservadas (ES5 y anteriores):
 - break

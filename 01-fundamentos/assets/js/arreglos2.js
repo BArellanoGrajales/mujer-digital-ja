@@ -32,3 +32,15 @@ console.log({ nuevaLongitud, juegos });
 let juegoBorrado = juegos.pop() //pop elimina el ultimo elementos del arreglo y lo regresa
 console.log({ juegoBorrado, juegos });
 
+let juegosBorrados = juegos.splice  //splice remueve elemntos de un arreglo y si es necesario los puede insertar 
+console.log({ juegosBorrados, juegos });
+
+console.log({ juegos });
+let juegosBorrados = juegos.splice( pos, 2 ); //
+console.log({ juegosBorrados, juegos });
+
+
+//quiero saber en que posisci[on de encuentra Metroid]
+let metroidIndex = juegos.indexOf('Metroid'); // indexOf te dice en que posicisión se encuentra un elemento
+console.log({ metroidIndex });
+
