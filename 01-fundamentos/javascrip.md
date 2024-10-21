@@ -202,9 +202,10 @@ class ShoppingCart {
 }
 
 #Ejmeplo de arreglo heterogéneo
+**NOTA: el primer valor de mi arreglo siempre se marca con 0**
 let arregloCosas = [
-  true,                             // 1. Un valor booleano (true)
-  123,                              // 2. Un número entero (123)
+  true,                             // 1. Un valor booleano (true)                                      // este es mi arreglo #0
+  123,                              // 2. Un número entero (123)                                        // ESte es mi arreglo #1
   'Fernando',                       // 3. Un string o cadena de texto ('Fernando')
   1+2,                              // 4. Una expresión que se evalúa a un número (1+2, que da 3)
   function(){},                     // 5. Una función anónima vacía
