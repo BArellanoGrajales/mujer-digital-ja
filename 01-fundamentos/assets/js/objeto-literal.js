@@ -42,5 +42,22 @@ console.log('Vivo:', personaje[x]); // aqui se imprime el valor de la propiedad 
 
 console.log('Ultima pelicula:', personaje['ultima-pelicula']);
 
+// Mas Detalles de objetos literales 
 
+//Ejercicio sobre som ohacerle para borrar la propiedad de un objeto 
 
+delete personaje.edad; 
+console.log(personaje);
+
+personaje.casado = true;
+
+const entriesPares = Object.entries(personaje); // Object.entries() es un método que devuelve una matriz de pares de propiedades [clave, valor] de un objeto dado, en el mismo orden que se obtienen en un bucle for...in (la diferencia es que un bucle for-in enumera las propiedades en la cadena de prototipos también).
+console.log(entriesPares);
+
+// Personaje = true;
+console.log(personaje);
+
+Object.freeze(personaje); // Object.freeze() es un método que congela un objeto: es decir, evita que se agreguen nuevas propiedades al objeto, elimina las propiedades existentes y evita que se modifiquen las propiedades existentes.
+
+personaje.dinero = 1000000000;
+console.log(personaje);
