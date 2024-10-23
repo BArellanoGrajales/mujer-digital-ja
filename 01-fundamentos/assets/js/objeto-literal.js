@@ -60,4 +60,11 @@ console.log(personaje);
 Object.freeze(personaje); // Object.freeze() es un método que congela un objeto: es decir, evita que se agreguen nuevas propiedades al objeto, elimina las propiedades existentes y evita que se modifiquen las propiedades existentes.
 
 personaje.dinero = 1000000000;
+personaje.casado = false;
+personaje.direccion.ubicacion = 'Costa Rica'; 
 console.log(personaje);
+
+const propiedades = Object.getOwnPropertyNames(personaje); // getOwnPropertyNames es un método en JavaScript que se utiliza para obtener un array de las propiedades enumerables y no enumerables de un objeto, excluyendo las propiedades que se heredan de su prototipo. 
+console.log(propiedades); // aqui se imprimen las propiedades del objeto personaje
+
+//Creamos una nueva propiedad llamada valores
