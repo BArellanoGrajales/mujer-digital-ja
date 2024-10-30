@@ -1,0 +1,117 @@
+
+# Comandos básicos de Git
+
+### Inicializar un nuevo repositorio
+
+```bash
+git init
+```
+
+> Sirve para inicializar un nuevo repositorio cuando no existe aún o cuando no hemos realizado un **FORK**.
+
+### Guardar cambios locales
+
+```bash
+git stash
+```
+
+> Usado cuando necesitamos guardar cambios locales rápidamente, por ejemplo, cuando estamos muy perdidos.
+
+### Cambiar a la rama principal
+
+```bash
+git checkout main
+```
+
+> Con este comando nos movemos a la rama principal.
+
+---
+
+## Descargar cambios de GitHub
+
+**Sincronizar en GitHub:**
+
+```bash
+git pull
+```
+
+### Crear una nueva rama
+
+```bash
+git checkout -b feature/saludoanavaneza
+```
+
+> Creamos una nueva rama llamada `feature/saludoanavaneza` a partir de `main`.
+
+### Fusionar cambios de `main` a nuestra rama
+
+> Asegúrate de estar en la rama que acabas de crear.
+
+```bash
+git merge main
+```
+
+### Revisar todas las ramas
+
+```bash
+git branch
+```
+
+> Verifica que en terminal aparezcan todas las ramas.
+
+---
+
+## Escribir código y ejecutar con Node.js
+
+```bash
+node <ubicación de tu archivo>
+```
+
+> Corre el archivo con Node.js para verificar que todo funcione bien.
+
+---
+
+## Enviar cambios al repositorio remoto
+
+### Agregar archivos al commit
+
+```bash
+git add .
+```
+
+### Crear un commit
+
+```bash
+git commit -m "agregamos comentario de commit"
+```
+
+### Subir cambios al repositorio
+
+```bash
+git push
+```
+
+> Subimos los cambios al repositorio remoto.
+
+### Crear un Pull Request en GitHub
+
+1. En GitHub, busca el botón **Compare & Pull Request**.
+2. Escribe un título y un comentario sobre tu actualización.
+3. Haz clic en el botón verde **Create Pull Request**.
+4. Espera a que el profesor apruebe los cambios.
+
+---
+
+# Trabajo con Forks en GitHub
+
+1. Revisa que tengas los cambios más recientes.
+2. Cambia a la rama `main` en Visual Studio.
+3. Ejecuta `git pull` para actualizar tu Visual Studio Code con los cambios de GitHub.
+4. Regresa a tu rama con `git checkout <nombre de tu rama>`.
+5. Fusiona con `main` usando `git merge main`.
+6. Resuelve los conflictos que aparezcan (acepta ambos cambios, etc.).
+7. Guarda los cambios.
+8. Ejecuta Node.js para verificar que no haya errores.
+9. Realiza un commit tradicional.
+10. Haz un Pull Request en GitHub.
+11. ¡Listo! Ahora solo queda que el profesor acepte tu Pull Request.
